@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:global(.list) {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global(.listItem) {
+    text-align: left;
+  }
+
+  :global(.link) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  :global(.activeLink) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+  }
+  
